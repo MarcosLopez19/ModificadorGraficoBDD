@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dam2.m03uf6pracmc.MProducteController">
+   <children>
+      <BorderPane layoutX="-8.0" layoutY="-17.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fx:id="tituloNombreProducto" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre Producto">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="200.0" top="30.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+            </HBox>
+         </top>
+         <left>
+            <VBox prefHeight="300.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="lbCodigoProducto" text="Código: ">
+                     <VBox.margin>
+                        <Insets left="215.0" top="25.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="lbNombreProducto" text="Nombre:">
+                     <VBox.margin>
+                        <Insets left="215.0" top="19.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="lbDescripcionProducto" text="Descripción:">
+                     <VBox.margin>
+                        <Insets left="215.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="lbStockProducto" text="Stock:">
+                     <VBox.margin>
+                        <Insets left="215.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="lbPrecioProducto" text="Precio:">
+                     <VBox.margin>
+                        <Insets left="215.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </left>
+         <right>
+            <VBox prefHeight="300.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="textCodigoProducto" maxWidth="250.0">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="textNombreProducto" maxWidth="250.0">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="textDescripcionProducto" maxWidth="250.0">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="textStockProducto" maxWidth="250.0">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="textPrecioProducto" maxWidth="250.0">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+         </right>
+         <bottom>
+            <HBox prefHeight="82.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="btnCancelarProducto" mnemonicParsing="false" onAction="#btnCancelarProducto" text="CANCELAR">
+                     <HBox.margin>
+                        <Insets left="100.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btnAceptarProducto" mnemonicParsing="false" onAction="#btnAceptarProducto" text="ACEPTAR">
+                     <HBox.margin>
+                        <Insets left="200.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </bottom></BorderPane>
+   </children>
+</AnchorPane>
